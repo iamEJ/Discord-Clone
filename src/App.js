@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
   return (
     <div className="app">
-      <h1>Discord-Clone with Redux</h1>
+      <Sidebar />
     </div>
   );
 }
